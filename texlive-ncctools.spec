@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/ncctools
+# catalog-date 2008-02-08 09:08:04 +0100
+# catalog-license lppl
+# catalog-version 3.5
 Name:		texlive-ncctools
 Version:	3.5
 Release:	1
@@ -136,6 +142,7 @@ centred page layouts; and - an un-numbered top-level section.
 %doc %{_texmfdistdir}/source/latex/ncctools/tocenter.dtx
 %doc %{_texmfdistdir}/source/latex/ncctools/topsection.dtx
 %doc %{_texmfdistdir}/source/latex/ncctools/watermark.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -146,3 +153,5 @@ centred page layouts; and - an un-numbered top-level section.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
