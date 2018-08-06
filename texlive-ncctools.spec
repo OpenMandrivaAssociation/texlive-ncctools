@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 3.5
 Name:		texlive-ncctools
-Version:	3.5
-Release:	11
+Version:	3.5.2
+Release:	1
 Summary:	A collection of general packages for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ncctools
