@@ -3,7 +3,7 @@ Version:	51810
 Release:	2
 Summary:	A collection of general packages for LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ncctools
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ncctools
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ncctools.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ncctools.doc.r%{version}.tar.xz
